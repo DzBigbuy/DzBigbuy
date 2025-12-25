@@ -1,0 +1,31 @@
+<main class="p-6">
+
+  <section id="homeView">
+    <h1 class="text-2xl font-bold text-yellow-300 mb-2">
+      منصة ربط التجار بالمسوقين
+    </h1>
+    <p>سجل، أنشر إعلانك، وتواصل بسهولة.</p>
+  </section>
+
+  <section id="authView" class="hidden max-w-md">
+    <h2 class="font-bold mb-2">تسجيل / دخول</h2>
+
+    <input id="email" type="email" placeholder="البريد" class="w-full p-2 mb-2 rounded">
+    <input id="password" type="password" placeholder="كلمة المرور" class="w-full p-2 mb-2 rounded">
+
+    <button onclick="register()" class="primary-btn w-full mb-2">تسجيل</button>
+    <button onclick="login()" class="secondary-btn w-full">دخول</button>
+  </section>
+
+  <section id="adsView" class="hidden max-w-xl">
+    <h2 class="font-bold mb-2">نشر إعلان</h2>
+
+    <input id="adTitle" placeholder="عنوان الإعلان" class="w-full p-2 mb-2 rounded">
+    <textarea id="adDesc" placeholder="وصف الإعلان" class="w-full p-2 mb-2 rounded"></textarea>
+
+    <button onclick="publishAd()" class="primary-btn w-full mb-4">نشر</button>
+
+    <div id="adsContainer" class="space-y-2"></div>
+  </section>
+
+</main>

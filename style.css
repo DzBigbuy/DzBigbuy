@@ -1,0 +1,36 @@
+:root{
+  --primary:#facc15;
+  --primary-dark:#eab308;
+}
+
+*{
+  font-family:"Cairo",system-ui,sans-serif;
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:radial-gradient(circle at top,#111827 0%,#020617 55%,#000 100%);
+  color:#e5e7eb;
+}
+
+.primary-btn{
+  background:linear-gradient(135deg,var(--primary),var(--primary-dark));
+  color:#000;
+  font-weight:700;
+  border-radius:999px;
+  padding:.6rem 1.2rem;
+}
+
+.secondary-btn{
+  border:1px solid #64748b;
+  border-radius:999px;
+  padding:.6rem 1.2rem;
+}
+
+.card{
+  background:#020617;
+  border:1px solid #334155;
+  border-radius:1rem;
+  padding:1rem;
+}
